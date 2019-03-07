@@ -1,0 +1,84 @@
+/* Square Avatars*/
+
+.avatar-large, .avatar-profile, .avatar-small, .avatar-xlarge, .avatar-xsmall, .avatar-xxlarge, .image-33JSyf, .wrapper-2F3Zv8 {
+    border-radius: 2.5px !important;
+}
+
+.image-33JSyf, .mask-3OgeRz, .wrapper-2F3Zv8 {
+    border-radius: 2.5px;
+    -webkit-mask: none;
+    mask: none;
+}
+
+.mask-3OgeRz {
+    -webkit-mask: none!important;
+}
+
+.theme-dark .guild-1EfMGQ .guildInner-3DSoA4 {
+    background: #2f3136;
+    border-radius: 5px !important;
+}
+
+.image-33JSyf, .wrapper-2F3Zv8 {
+    border-radius: 2.5px !important;
+}
+
+.inner-1W0Bkn {
+    border-radius: 2.5px;
+}
+
+.smallAvatar-1MzqAa {
+    border-radius: 3px;
+    height: 20px;
+    width: 20px;
+}
+
+/*Optional square status*/
+
+.status-2s6iDp {
+    background-clip: padding-box;
+	border-radius: 0px;
+    border: 1px solid;
+    bottom: -1px;
+    height: 30px;
+    right: -4px;
+    width: 2.5px;
+}
+
+.theme-dark .status-2s6iDp {
+    border-color: rgba(47, 49, 54, 0.6);
+}
+
+.statusProfile-3ynqtt.online-2S838R {
+    -webkit-box-shadow: inset 0 0 0 2px rgba(180,225,205,.6);
+    box-shadow: inset 0 0 0 2px rgba(20,205,23,0.8);
+	background: transparent;
+}
+
+.statusProfile-3ynqtt.idle-3DEnRT {
+    -webkit-box-shadow: inset 0 0 0 2px rgba(253,219,163,.6);
+    box-shadow: inset 0 0 0 2px rgba(253,169,63,0.8);
+	background: transparent;
+}
+
+.statusProfile-3ynqtt.invisible-1kp8Z0, .statusProfile-3ynqtt.offline-3qoTek, .statusProfile-3ynqtt.unknown-Ms2zdV {
+    -webkit-box-shadow: inset 0 0 0 2px rgba(199,204,209,.6);
+    background-size: 22px;
+    box-shadow: inset 0 0 0 2px rgba(99,104,109,0.8);
+	background: transparent;
+}
+
+.statusProfile-3ynqtt.dnd-1_xrcq {
+    -webkit-box-shadow: inset 0 0 0 2px rgba(249,181,181,.6);
+    box-shadow: inset 0 0 0 2px rgba(200, 60, 60, 0.8);
+	background: transparent;
+}
+
+.statusProfile-3ynqtt {
+    bottom: -1px;
+    height: 91px;
+    position: absolute;
+    right: -1px;
+    width: 91px;
+    border-radius: 0px;
+}
