@@ -6410,6 +6410,7 @@ header.categoryWrapper-UZ5YNj h4 {
 .nowPlayingColumn-2sl4cE {background-color:#00000038;border-left: solid 1px #ffffff1a;}
 .nowPlayingScroller-2XrVUt {background-color:transparent;}
 .container-2dqNWc {backdrop-filter:blur(5px);}
+.replyAvatar-1K9Wmr, .replyBadge-r1su3o {border-radius:10%;}
 /*unread*/
 .newMessagesBar-265mhP {border-radius:0;background-color:#7400ff26;backdrop-filter:blur(5px);}
 
