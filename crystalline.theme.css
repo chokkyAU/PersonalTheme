@@ -1,3 +1,5 @@
+//META{"name":"Crystalline","description":"crystalline","author":"chooky","version":"1.2"}*//{}
+
 body {
     -webkit-transition: background 3s ease-in-out;
     transition: background 3s ease-in-out;
@@ -11,10 +13,20 @@ body {
     background-size: 1921px auto;
 	background-attachment: fixed;
 }
+
+@keyframes backandforth {
+	0% {background-position:10% 25%;}
+	25% {background-position:20% 50%;}
+	50% {background-position:30% 25%;}
+	75% {background-position:20% 0;}
+	100% {background-position: 10% 25%;}
+}
+
 .theme-dark {
 	--background-primary: transparent;
     --background-tertiary: transparent;
 	--background-secondary: transparent;
+	--background-secondary-alt: transparent;
 	--background-accent: #00000080;
 	--background-floating: #00000066;
 	--deprecated-panel-background: transparent;
@@ -22,6 +34,7 @@ body {
 	--interactive-muted: #61646b;
 	--purple: #a872da;
 }
+
 .activity-2Gy-9S {color: rgba(255,255,255,0.75);}
 .activityText-yGKsKm strong {color: rgba(255,255,255,0.9)}
 
@@ -6411,6 +6424,14 @@ header.categoryWrapper-UZ5YNj h4 {
 .nowPlayingScroller-2XrVUt {background-color:transparent;}
 .container-2dqNWc {backdrop-filter:blur(5px);}
 .replyAvatar-1K9Wmr, .replyBadge-r1su3o {border-radius:10%;}
+.connection-1fbD7X {background-color: #0000001f;}
+.radioIconForeground-XwlXQN {color: var(--purple)}
+.item-26Dhrx:hover {
+    background-color: #ffffff1a;
+    color: var(--interactive-hover);
+}
+
+.name-IbjUBS, .marginBottom8-AtZOdT, .textRow-19NEd_, .item-26Dhrx:hover {transition: background-color ease-in-out 0.25s;}
 /*unread*/
 .newMessagesBar-265mhP {border-radius:0;background-color:#7400ff26;backdrop-filter:blur(5px);}
 
