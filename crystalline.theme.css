@@ -6430,6 +6430,11 @@ header.categoryWrapper-UZ5YNj h4 {
     background-color: #ffffff1a;
     color: var(--interactive-hover);
 }
+.lookFilled-1Gx00P.colorWhite-rEQuAQ {
+    color: #ffffff;
+    background-color: #9eb5ff33;
+}
+.lookFilled-1Gx00P.colorWhite-rEQuAQ:hover {background-color:##9eb5ff4d}
 
 .name-IbjUBS, .marginBottom8-AtZOdT, .textRow-19NEd_, .item-26Dhrx:hover {transition: background-color ease-in-out 0.25s;}
 /*unread*/
