@@ -14,14 +14,6 @@ body {
 	background-attachment: fixed;
 }
 
-@keyframes backandforth {
-	0% {background-position:10% 25%;}
-	25% {background-position:20% 50%;}
-	50% {background-position:30% 25%;}
-	75% {background-position:20% 0;}
-	100% {background-position: 10% 25%;}
-}
-
 .theme-dark {
 	--background-primary: transparent;
     --background-tertiary: transparent;
@@ -6434,7 +6426,7 @@ header.categoryWrapper-UZ5YNj h4 {
     color: #ffffff;
     background-color: #9eb5ff33;
 }
-.lookFilled-1Gx00P.colorWhite-rEQuAQ:hover {background-color:##9eb5ff4d}
+.lookFilled-1Gx00P.colorWhite-rEQuAQ:hover {background-color:#9eb5ff4d;}
 
 .name-IbjUBS, .marginBottom8-AtZOdT, .textRow-19NEd_, .item-26Dhrx:hover {transition: background-color ease-in-out 0.25s;}
 /*unread*/
