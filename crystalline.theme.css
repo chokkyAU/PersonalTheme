@@ -4644,7 +4644,7 @@ input{
     border-radius: 0;
 }
 
-.channel-2QD9_O[href="/store"] .layout-2DM8Md, .iconItem-1-bXkn.iconBase-2IHuka[aria-label="Create Invite"] {display:none;}
+.channel-2QD9_O[href="/store"], .channel-2QD9_O[href="/store"] .layout-2DM8Md, .iconItem-1-bXkn.iconBase-2IHuka[aria-label="Create Invite"] {display:none;}
 .scroller-2FKFPG.da-scroller.systemPad-3UxEGl.da-systemPad.scroller-1JbKMe.da-scroller {
 	height: 120%;
 }
