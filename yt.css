@@ -1,0 +1,5 @@
+html:not(.style-scope)[dark], :not(.style-scope)[dark] {
+	--yt-spec-general-background-a: #000;
+	--yt-spec-brand-background-primary: #000;
+	--yt-spec-text-primary: #ece3d8;
+}
