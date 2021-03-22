@@ -3,3 +3,6 @@ html:not(.style-scope)[dark], :not(.style-scope)[dark] {
 	--yt-spec-brand-background-primary: #000;
 	--yt-spec-text-primary: #ece3d8;
 }
+yt-img-shadow[fit] img.yt-img-shadow {
+    border-radius: 10%;
+}
